@@ -62,3 +62,9 @@ echo ${array[@]}
 
 echo "Descending order"
 printf '%s\n' "${array[@]}" | sort -nr
+
+
+#UC_09: Results in Ascending order
+
+echo "Ascending order"
+printf '%s\n' "${array[@]}" | sort -n
