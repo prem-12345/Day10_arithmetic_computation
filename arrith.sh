@@ -24,3 +24,9 @@ echo $x
 y=$((a*(b+c)))
 
 echo $y
+
+#UC_04: Compute c+a/b
+
+z=$(((c+a)/b))
+
+echo $z
