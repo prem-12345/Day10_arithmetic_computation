@@ -36,3 +36,12 @@ echo $z
 u=$((a%(b+c)))
 
 echo $u
+
+#UC_06: Store the result in Dictionary
+
+#declare -A dict
+dict+=( ["1"]=$x ["2"]=$y ["3"]=$z ["4"]=$u )
+
+echo "Print Dict: "
+echo ${!dict[@]}
+echo ${dict[@]}
