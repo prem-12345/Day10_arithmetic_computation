@@ -55,3 +55,9 @@ done
 
 echo "Array of dict values"
 echo ${array[@]}
+
+#UC_08: Results in Descending order
+
+echo "Descending order"
+printf '%s\n' "${array[@]}" | sort -nr
+
