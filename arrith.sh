@@ -46,18 +46,4 @@ echo "Print Dict: "
 echo ${!dict[@]}
 echo ${dict[@]}
 
-#UC_07: Read the values from dictionary to array
-
-for i in ${dict[@]}
-do
-        array+=($i)
-done
-
-echo "Array of dict values"
-echo ${array[@]}
-
-#UC_08: Results in Descending order
-
-echo "Descending order"
-printf '%s\n' "${array[@]}" | sort -nr
 
