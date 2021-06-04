@@ -45,3 +45,13 @@ dict+=( ["1"]=$x ["2"]=$y ["3"]=$z ["4"]=$u )
 echo "Print Dict: "
 echo ${!dict[@]}
 echo ${dict[@]}
+
+#UC_07: Read the values from dictionary to array
+
+for i in ${dict[@]}
+do
+        array+=($i)
+done
+
+echo "Array of dict values"
+echo ${array[@]}
