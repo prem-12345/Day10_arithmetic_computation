@@ -47,3 +47,12 @@ echo ${!dict[@]}
 echo ${dict[@]}
 
 
+#UC_07: Read the values from dictionary to array
+
+for i in ${dict[@]}
+do
+        array+=($i)
+done
+
+echo "Array of dict values"
+echo ${array[@]}
